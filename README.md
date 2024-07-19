@@ -47,7 +47,7 @@ npm install
 3. **Start the Frontend application**
 
 ```bash
-npm run start
+npm run dev
 ```
 
 **Backend Setup**
