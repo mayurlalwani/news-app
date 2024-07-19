@@ -1,4 +1,4 @@
-# Xtravision Assignment: News Search Application with AI
+# Assignment: News Search Application with AI
 
 ## Overview
 
