@@ -26,6 +26,8 @@ const summarizeArticle = async (content) => {
   return summary;
 };
 
+//GET /?keyword=
+//This endpoint retrieves news articles related to a specified keyword and returns them with summaries.
 router.get("/", async (req, res) => {
   const { keyword } = req.query;
   if (!keyword) {
