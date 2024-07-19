@@ -39,7 +39,7 @@ router.get("/", async (req, res) => {
     const articles = response.data.articles;
 
     const summarizedArticles = await Promise.all(
-      articles.slice(0, 3).map(async (article) => {
+      articles.map(async (article) => {
         const summary = await summarizeArticle(article.content);
         return { ...article, summary };
       })
